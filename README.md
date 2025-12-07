@@ -1,4 +1,4 @@
-#E-commerce (Laravel)
+# E-commerce (Laravel)
 
 <p align="center">
   <a href="https://laravel.com" target="_blank">
@@ -44,7 +44,7 @@ It demonstrates:
 ```bash
 1. Clone the repository:  
 git clone <https://github.com/mishimanto/e-commerce-full>
-cd mini-ecommerce-api
+cd e-commerce-full
 
 2. Install dependencies:
 composer install
@@ -65,12 +65,14 @@ php artisan key:generate
 php artisan migrate 
 php artisan db:seed 
 
+6. Run storage link:
+php artisan storage:link 
 
-6.Run the development server:
+7.Run the development server:
 php artisan serve
 npm run build (Another CMD)
 npm run dev
 
-7. Access:
+8. Access:
 http://localhost:8000
 
