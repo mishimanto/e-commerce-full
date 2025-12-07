@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Hide default track */
+.range-thumb::-webkit-slider-runnable-track {
+  height: 8px;
+  background: #ddd;
+  border-radius: 9999px;
+}
+
+/* Thumb Style */
+.range-thumb::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  height: 12px;
+  width: 12px;
+  background: #2563eb;
+  border-radius: 50%;
+  cursor: pointer;
+  margin-top: -5px;
+}
+
+/* For Firefox */
+.range-thumb::-moz-range-thumb {
+  height: 12px;
+  width: 12px;
+  background: #2563eb;
+  border-radius: 50%;
+  cursor: pointer;
+}
