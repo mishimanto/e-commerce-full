@@ -1,4 +1,4 @@
-# Mini E-commerce REST API (Laravel + Sanctum)
+#E-commerce (Laravel)
 
 <p align="center">
   <a href="https://laravel.com" target="_blank">
@@ -24,9 +24,10 @@ It demonstrates:
 | ------------------- | ------- | --------------------------- |
 | **Laravel**         | 12.x    | Backend framework           |
 | **PHP**             | 8.2.12  | Server-side language        |
+| **React**           | Latest  | Fronted library             |
 | **MySQL / MariaDB** | 10.4+   | Relational database         |
-| **Laravel Sanctum** | Latest  | API Token Authentication    |
 | **Composer**        | Latest  | PHP dependency manager      |
+| **Node**            | 22      | React dependency manager    |
 | **Postman**         | Latest  | API testing tool            |
                                                                                            
 
@@ -34,15 +35,15 @@ It demonstrates:
 
 | Role  | Email              | Password |
 | ----- | ------------------ | -------- |
-| Admin | [admin@gmail.com]  | shimanto |
-| User  | [test@gmail.com]   | shimanto |
+| Admin | admin@gmail.com    | shimanto |
+| User  | user@gmail.com     | shimanto |
 
 
 # Installation Instructions
 
 ```bash
 1. Clone the repository:  
-git clone <https://github.com/mishimanto/mini-ecommerce-api>
+git clone <https://github.com/mishimanto/e-commerce-full>
 cd mini-ecommerce-api
 
 2. Install dependencies:
