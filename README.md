@@ -48,6 +48,7 @@ cd e-commerce-full
 
 2. Install dependencies:
 composer install
+npm install
 
 3. Copy .env.example → .env and update database credentials:
 
